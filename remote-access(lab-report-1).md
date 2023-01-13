@@ -40,4 +40,5 @@ So you must have a password to prove to your computer, that you are its hacker m
 ![Image](question.png)
 * Tell it "yes".
 * Type in your hacker password you just made, don't tell me you forget it.
+> You will not see your password, it is just like the `*********` you see on other websites when you are logging in.
 * Now you should see something that you can tell you succeed, if you haven't, repeat the steps!!!
