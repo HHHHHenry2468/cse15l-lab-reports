@@ -1,4 +1,5 @@
 # Installation of Visual Studio Code
+
 On Visual Studio Code website https://code.visualstudio.com/, select the version that matches your operating system and follow the instructions to download the files.
 When firstly opened, there will be some settings to be completed. After all settings are settled, you should see a window with the same format but may be in different colors and themes.
 ![Image](VSCodeSurface.png)
