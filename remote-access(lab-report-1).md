@@ -3,12 +3,12 @@
 ##Step 1: Know your hacker account
 1. Click [this](https://sdacs.ucsd.edu/~icc/index.php).
 2. You should see the picture below:
-[Image](account-lookup.jpg)
+![Image](account-lookup.jpg)
 3. Fill out the first two lanes with your given username and your PID.
 > Your username is a part of your school email account, like `cse15l` for `cse15l`@ucsd.edu.
 4. Click the blue button that is on the left of the button `Clear Fields`.
 5. You should see the picture below:
-[Image](account-lookup-result.jpg)
+![Image](account-lookup-result.jpg)
 6. Above `Email Information`, you should see your specific account name. 
 > It should be in the form of "cs15l*aabbccc*"
 > *aa* is the quarter you are taking this course, "sp", "fa", or "wi".
@@ -22,9 +22,9 @@ So you must have a password to prove to your computer, that you are its hacker m
 ```
 1. Click your hacker account.
 2. It should look like this:
-[Image](page-to-change-password.jpg)
+![Image](page-to-change-password.jpg)
 3. Click **change your password**.
-[Image](change-password-page.jpg)
+![Image](change-password-page.jpg)
 4. Enter your current password of your student account.
 5. Create your new password and confirm it (a hacker at least should be able to remember that).
 6. Select `No` for `Change MyTritonLink password?`, if you don't want to change it.
@@ -37,10 +37,10 @@ So you must have a password to prove to your computer, that you are its hacker m
 > If you are using MacBooks, press `Command` and `Space` together, and search `terminal`
 > If you are using Windows, search for `Command Prompt` on the side bar `Type here to search`.
 * The slay window looks like this:
-[Image](command-prompt.jpg)
+![Image](command-prompt.jpg)
 * Type in `ssh cs15l*aabbccc*@ieng6.ucsd.edu`, "cs15l*aabbccc*" is your hacker account.
 * Then it should ask you a question:
-[Image](question.jpg)
+![Image](question.jpg)
 * Tell it "yes".
 * Type in your hacker password you just made, don't tell me you forget it.
 * Now you should see something that you can tell you succeed, if you haven't, repeat the steps!!!
