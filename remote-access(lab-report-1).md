@@ -10,10 +10,7 @@
 5. You should see the picture below:
 ![Image](Results.png)
 6. Above `Email Information`, you should see your specific account name. 
-> It should be in the form of "cs15l*aabbccc*"
-> *aa* is the quarter you are taking this course, "sp", "fa", or "wi".
-> *bb* is the quarter's year, "22", "23", etc.
-> *ccc* is your hacker's specific letters.
+> It should be in the form of "cs15l*aabbccc*". *aa* is the quarter you are taking this course, "sp", "fa", or "wi". *bb* is the quarter's year, "22", "23", etc. *ccc* is your hacker's specific letters.
 ---
 ##Step 2: Create your hacker's password
 ```
