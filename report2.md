@@ -1,7 +1,7 @@
 # Lab Report 2
 ## Part1
 Code:
-'''
+```
 import java.net.URI;
 import java.io.IOException;
 
@@ -66,4 +66,11 @@ class StringServer{
         Server.start(port, new Handler());
     }
 }
-'''
+```
+Screenshot 1:
+![Image](LabReport3:ScreenShot1.png)
+The method in my code that was called is `handleRequest`. In the part `else`, there is a scenario when no message has been added, `if(elements == null)`, so according to it, the string array `elements` was added with one capacity, then put the added message inside. The method returns this message on the page.
+***
+Screenshot 2:
+![Image](LabReport3:ScreenShot2.png)
+The method in my code that was called is `handleRequest`. in the part `else`, there is another scenario when there is already existing element(s), and according to it, the string array `elements` was resized, and put the added message inside. The method then returns all the added message on page.
