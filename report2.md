@@ -69,7 +69,7 @@ class StringServer{
 ```
 Screenshot 1:
 ---
-![Image](https://github.com/HHHHHenry2468/cse15l-lab-reports/blob/main/LabReport3:ScreenShot1.png)
+![Image](LabReport3:ScreenShot1.png)
 > The method in my code that was called is `handleRequest`. In the part `else`, there is a scenario when no message has been added, `if(elements == null)`, so according to it, the string array `elements` was added with one capacity, then put the added message inside. The method returns this message on the page. Firstly, the message is stored in `parameters` array, at index 1. then `element[0]` was made equal to this value. This is the only value changed when calling this method.
  ***
 Screenshot 2:
