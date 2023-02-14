@@ -19,7 +19,7 @@ This command is very useful in searching for a pattern in a large number of file
 ```
 ./travel_guides/berlitz2/Portugal-WhereToGo.txt:On 13 May 1917, three young shepherds claimed they saw a series of miraculous visions of the Virgin Mary — said to disclose three secrets, or prophecies, to the children — followed by a solar phenomenon witnessed by thousands in October of the same year. (Two of the children died of pneumonia soon after these inexplicable events; the third, Lucia, now in her 90s, has been a cloistered Carmelite nun in Coimbra since 1929 and makes very few public appearances.)
 ```
-> Information acquired from [ChatGPT](https://chat.openai.com/chat).
+Information acquired from [ChatGPT](https://chat.openai.com/chat).
 
 ---
 Sometimes we may only want to check about how many times a word was mentioned. For instance, if you are a reviewer of films and you want to check the cursing words within the script, you would care about where they are. `grep -n` would solve the problem by showing the number of the line.
@@ -39,7 +39,7 @@ I could go to the file *Beijing-History.txt* and further check about where Chine
 21:The Qing Dynasty is also celebrated for its elaboration of the artistic traditions it inherited from the Ming Dynasty. What we know as Peking-style opera and still see performed today in the capital became formalized under the Qing, although its roots (and costumes) go back to Ming and earlier eras. The Ming were also noted for their superb ink paintings, cloisonné enamel work, furniture design, and lacquerware — but above all for their porcelains of the “five-colors” and “blue-and-white” schools. At the end of the Ming, these porcelains with landscape and garden designs became all the rage in Europe, where imitation “Chinese” pottery began to be produced. The Qing continued these artistic traditions, adding increasingly rich and dense ornamentation and applying new colors, many of them clashing or gaudy.
 34:The skyline of the capital rises higher and higher each year, glass and steel replace brick and mud in the old courtyards, cars replace carts in the streets, and computers replace abacuses in the schools. Today’s Beijing would seem to have little in common with the Beihai lakeshore of Kublai Khan and Marco Polo, the Forbidden City of the Ming, the Summer Palace of the Qing, the Temple of Confucius, or even the patriotic tomb of Chairman Mao. But China’s capital has not escaped the history that shaped it, be it ancient or modern. Visitors can still see both today.
 ```
-> Information acquired from [ChatGPT](https://chat.openai.com/chat).
+Information acquired from [ChatGPT](https://chat.openai.com/chat).
 
 ---
 If I am aassesor of the film instead of reviewer, I would only care about how many times cursing word has shown. In this case, `grep -c` would help by only showing the number of times the pattern was found.
@@ -51,7 +51,7 @@ If I want to see how many times was Mongol dynasty "Yuan" was mentioned in *Beij
 ```
 2
 ```
-> Information acquired from [ChatGPT](https://chat.openai.com/chat).
+Information acquired from [ChatGPT](https://chat.openai.com/chat).
 
 ---
 If I am lazier and only want to check about the existence of a word, I can use `grep -q`, which is the quiet mode of grep. A zero exit status would be returned if matches were found.
@@ -67,4 +67,4 @@ hix@Xiaohes-MacBook-Air written_2 % grep -q "Henry Li" find-results.txt
 hix@Xiaohes-MacBook-Air written_2 % echo $?
 1
 ```
-> Information acquired from [ChatGPT](https://chat.openai.com/chat).
+Information acquired from [ChatGPT](https://chat.openai.com/chat).
