@@ -8,7 +8,7 @@
 skill-demo1-data % grep "Lucayans" written_2 
 grep: written_2: Is a directory
 ```
-
+---
 However, sometimes we want to search a word within the whole file. In this situation, we can use `grep -r`. The `r` stands for recursive, which means that this command will search through all directories and subdirectories.
 For instance, if we want to search for *Lucayans* in the file *written_2*, we can type `grep -r "Lucayans" .`. The output is
 ```
@@ -20,7 +20,7 @@ This command is very useful in searching for a pattern in a large number of file
 ./travel_guides/berlitz2/Portugal-WhereToGo.txt:On 13 May 1917, three young shepherds claimed they saw a series of miraculous visions of the Virgin Mary — said to disclose three secrets, or prophecies, to the children — followed by a solar phenomenon witnessed by thousands in October of the same year. (Two of the children died of pneumonia soon after these inexplicable events; the third, Lucia, now in her 90s, has been a cloistered Carmelite nun in Coimbra since 1929 and makes very few public appearances.)
 ```
 > Information acquired from [ChatGPT](https://chat.openai.com/chat).
-
+---
 Sometimes we may only want to check about how many times a word was mentioned. For instance, if you are a reviewer of films and you want to check the cursing words within the script, you would care about where they are. `grep -n` would solve the problem by showing the number of the line.
 `grep -n` would only show how many times a specific pattern is shown. In below example, I would use a file storing the result of `find . -name "*.txt"`. I want to know how many files are named with "Beijing", so I used `grep -n "Beijing" find-results.txt`. The out put is:
 ```
@@ -39,7 +39,7 @@ I could go to the file *Beijing-History.txt* and further check about where Chine
 34:The skyline of the capital rises higher and higher each year, glass and steel replace brick and mud in the old courtyards, cars replace carts in the streets, and computers replace abacuses in the schools. Today’s Beijing would seem to have little in common with the Beihai lakeshore of Kublai Khan and Marco Polo, the Forbidden City of the Ming, the Summer Palace of the Qing, the Temple of Confucius, or even the patriotic tomb of Chairman Mao. But China’s capital has not escaped the history that shaped it, be it ancient or modern. Visitors can still see both today.
 ```
 > Information acquired from [ChatGPT](https://chat.openai.com/chat).
-
+---
 If I am aassesor of the film instead of reviewer, I would only care about how many times cursing word has shown. In this case, `grep -c` would help by only showing the number of times the pattern was found.
 If I want to check how many times "China" was mentioned in the file *written_2*, I could use `grep -c "Shanghai" find-results.txt`. The output is:
 ```
@@ -50,7 +50,7 @@ If I want to see how many times was Mongol dynasty "Yuan" was mentioned in *Beij
 2
 ```
 > Information acquired from [ChatGPT](https://chat.openai.com/chat).
-
+---
 If I am lazier and only want to check about the existence of a word, I can use `grep -q`, which is the quiet mode of grep. A zero exit status would be returned if matches were found.
 For instance, I want to see if *Italy* was mentioned in the file names, I can use `grep -q "Italy" find-results.txt` and then see the exit status `echo $?`, the output should be
 ```
