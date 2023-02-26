@@ -2,7 +2,9 @@
 
 ## Step 1 Log into ieng6 ##
 `<control + R>` *Open the search function to search for history commands*
+
 `ssh` *Search the command to log into remote server*
+
 ![Image](step1.png)
 
 ## Step 2 Clone your fork of the repository from your Github account ##
