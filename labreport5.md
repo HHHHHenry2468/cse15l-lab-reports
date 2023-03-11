@@ -1,5 +1,5 @@
-### How to fix a file from GitHub like a flash ###
-# PS: Error in the file is already known #
+# How to fix a file from GitHub like a flash #
+### PS: Error in the file is already known ###
 
 ## Writing a bash script ##
 A bash script is a time saving machine, because only one command that calls the script can help you run infinite commands contained in the script. The script in this scenario should:
